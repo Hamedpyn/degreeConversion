@@ -16,10 +16,14 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 70px;
 }
 #container {
     margin: 150px auto;
+    gap: 70px;
+}
+
+#form {
+    gap: 30px;
 }
 
 #title h1 {
@@ -35,6 +39,12 @@ body {
     padding-left: 10px;
     font-size: 20px;
     border-radius: 6px;
+}
+
+#result {
+    color: #fff;
+    font-size: 25px;
+    display: none;
 }
 
 #buttonsStatus button {
