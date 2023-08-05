@@ -23,7 +23,7 @@ body {
 }
 
 #form {
-    gap: 30px;
+    gap: 40px;
 }
 
 #title h1 {
@@ -57,7 +57,6 @@ body {
     transition: all 0.2s;
     margin-right: 10px;
     background: linear-gradient(90deg, rgba(228, 228, 228, 1) 25%, rgba(171, 171, 171, 1) 96%);
-
 }
 
 #buttonsStatus button:active {

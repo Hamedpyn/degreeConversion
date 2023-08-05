@@ -3,7 +3,6 @@
 let
     title = document.querySelector('#title h1'),
     conversionInput = document.querySelector('#conversion input'),
-    form = document.querySelector('form'),
     result = document.querySelector('#result'),
     convertBtn = document.querySelector('#convert'),
     resetBtn = document.querySelector('#reset'),
