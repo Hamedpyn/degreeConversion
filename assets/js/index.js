@@ -39,6 +39,14 @@ convertBtn.addEventListener('click', () => {
     }
 });
 
+// Reset conversion on button click
+resetBtn.addEventListener('click', () => {
+    // Hide result div
+    result.style.display = 'none';
+    // Clear input value
+    conversionInput.value = '';
+});
+
 // Conversion functions
 function changeToFahrenheit() {
     // Update HTML from Celsius to Fahrenheit
