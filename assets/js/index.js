@@ -67,7 +67,7 @@ function convertToFahrenheit() {
 
     // Display result
     result.style.display = 'block';
-    result.style.color = '#fff';
+    result.style.color = '#2fdf2f';
     result.innerHTML = `${inputValue}°C to ${answerBox}°F`;
 }
 
@@ -77,7 +77,7 @@ function convertToCelsius() {
 
     // Display result
     result.style.display = 'block';
-    result.style.color = '#fff';
+    result.style.color = '#2fdf2f';
     result.innerHTML = `${inputValue}°F to ${answerBox.toFixed(4)}°C`;
 }
 
